@@ -1,9 +1,11 @@
 package module01.problem01;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
         // TODO: Tambahkan input sesuai urutannya di Lembar Kerja Praktikum

@@ -8,6 +8,11 @@ public class Fruit {
 
     }
 
+    // TODO: Buat method untuk mencetak informasi tentang buah
+    public void printInfo() {
+
+    }
+
     // TODO: Buat method untuk menghitung harga sebelum diskon
     public double getPreDiscountPrice() {
         return 0;
@@ -20,10 +25,5 @@ public class Fruit {
 
     public double getPostDiscountPrice() {
         return getPreDiscountPrice() - getDiscountTotal();
-    }
-
-    // TODO: Buat method untuk mencetak informasi tentang buah
-    public void printInfo() {
-
     }
 }

@@ -22,17 +22,17 @@ public class House {
 
     }
 
+    // Custom methods
+    public float calculateTax() {
+        return this.width * this.length * 10;
+    }
+
     // Getter & setter
     public String getOwner() {
         return owner;
     }
     public void setOwner(String owner) {
         this.owner = owner;
-    }
-
-    // Custom methods
-    public float calculateTax() {
-        return this.width * this.length * 10;
     }
 }
 

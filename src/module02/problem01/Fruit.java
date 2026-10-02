@@ -9,7 +9,7 @@ public class Fruit {
     public Fruit(String fruitName) {
         this.fruitName = fruitName;
 
-        this.pricePerKg = this.price * this.weight;
+        this.pricePerKg = this.price / this.weight;
     }
 
     public void printInfo() {

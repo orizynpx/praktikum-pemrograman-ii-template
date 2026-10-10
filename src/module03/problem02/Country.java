@@ -41,7 +41,7 @@ public class Country {
         //  Baris 1: Negara Indonesia mempunyai Presiden bernama Joko Widodo (biarin tetap Jokowi)
         //  Baris 2: Deklarasi Kemerdekaan pada Tanggal 17 Agustus 1945
         System.out.println("Negara " + this.countryName
-                + " mempunyai " + (this.leadershipType.equals("monarki") ? "Raja" : (this.leadershipType.substring(0, 1).toUpperCase() + this.leadershipType.substring(1)))
+                + " mempunyai " + this.leaderTitle
                 + " bernama " + this.leaderName
         );
 

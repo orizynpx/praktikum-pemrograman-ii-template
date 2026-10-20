@@ -7,5 +7,5 @@ public class Cat {
     // TODO: Buat constructor berisi 3 attribute (2 dari Pet & 1 dari class ini)
     //  Hint: Gunakan super() untuk menginisialisasi 2 attribute
 
-    // TODO: Lakukan method overridding
+    // TODO: Buat method displayCatDetails() berisi super.display() dan lengkapi apa yang perlu ditampilkan
 }

@@ -1,8 +1,6 @@
 package module05;
 
-import module05.shapes.Cylinder;
-import module05.shapes.Rectangle;
-import module05.shapes.Sphere;
+import module05.shapes.*;
 
 import java.text.DecimalFormat;
 

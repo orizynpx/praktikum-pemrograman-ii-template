@@ -1,5 +1,6 @@
 package module05.shapes;
 
+// TODO: Buat class ini meng-inherit dari Shape
 public class Cylinder {
     // TODO: Deklarasikan atribut radius dan height
 
